@@ -1,18 +1,19 @@
 {
-  "name": "Python3.9 開発環境Docker",
+  "name": "schedule-manager-mr 開発環境",
   "dockerFile": "../Dockerfile",
   "extensions": [
     "ms-python.python",
+    "ms-python.vscode-pylance",
+    "KevinRose.vsc-python-indent",
     "njpwerner.autodocstring",
     "mosapride.zenkaku",
-    "octref.vetur",
-    "ms-python.vscode-pylance",
     "streetsidesoftware.code-spell-checker",
-    "mhutchie.git-graph",
-    "eamodio.gitlens",
     "usernamehw.errorlens",
-    "streetsidesoftware.code-spell-checker",
     "VisualStudioExptTeam.vscodeintellicode",
-    
-  ],
+    "alefragnani.Bookmarks",
+    "TabNine.tabnine-vscode",
+    "oderwat.indent-rainbow",
+    "mhutchie.git-graph",
+    "eamodio.gitlens"
+  ]
 }
